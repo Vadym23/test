@@ -61,7 +61,7 @@ body {
     border: 1px solid #333;
 }
 
-.form button {
+.btn {
     margin-top: 11px;
     font-size: 18px;
     font-weight: 900;
@@ -70,4 +70,24 @@ body {
     width: 300px;
     height: 40px;
     border: none;
+    display: block;
+    margin: 11px auto;
+}
+
+.col {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+.feature-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.feature {
+    text-align: center;
+    margin: 60px auto;
 }
